@@ -2,7 +2,7 @@
 
 JMTEB v2 の Retrieval タスク群で text embedding モデル (dense / sparse) を評価するための実行ハーネスです。設定を JSON ファイル 1 枚で与え、`eval.py` を実行するだけで全タスクのベンチマークが回ります。
 
-## このプロジェクトの目的
+## このコードについて
 
 JMTEB v2 (公式の評価フレームワーク) は dense な embedding モデルの評価を前提としており、SPLADE のような sparse (疎ベクトル) モデルをそのままでは評価できません。本リポジトリは、JMTEB v2 の Retrieval タスク資産をそのまま使いつつ、sparse モデルも同じ土俵で評価できるようにするためのハーネスです。
 
