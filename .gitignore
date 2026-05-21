@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# JMTEB checkout (cloned automatically at runtime by env_setup)
+/JMTEB/
+
+# intermediate cache & evaluation outputs
+/cached_results/
+/results/
+
+# working copies of configs
+config.run.json
+config.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

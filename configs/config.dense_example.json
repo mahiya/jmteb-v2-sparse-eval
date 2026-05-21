@@ -1,0 +1,22 @@
+{
+  "target_models": [
+    "intfloat/multilingual-e5-large"
+  ],
+  "is_sparse": false,
+  "task_max_seq_length": {
+    "NLPJournalTitleAbsRetrieval.V2": 512,
+    "MintakaRetrieval": 512,
+    "JaGovFaqsRetrieval": 512
+  },
+  "task_batch_size": {
+    "NLPJournalTitleAbsRetrieval.V2": 64,
+    "MintakaRetrieval": 64,
+    "JaGovFaqsRetrieval": 64
+  },
+  "target_tasks": [
+    "NLPJournalTitleAbsRetrieval.V2",
+    "MintakaRetrieval",
+    "JaGovFaqsRetrieval"
+  ],
+  "output_root_dir": "./results"
+}

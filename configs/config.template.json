@@ -1,0 +1,46 @@
+{
+  "target_models": [
+    "mahiyama/splade-ja-310m-v2"
+  ],
+  "is_sparse": true,
+  "task_max_seq_length": {
+    "NLPJournalTitleAbsRetrieval.V2": 512,
+    "NLPJournalTitleIntroRetrieval.V2": 2456,
+    "NLPJournalAbsIntroRetrieval.V2": 2456,
+    "NLPJournalAbsArticleRetrieval.V2": 8192,
+    "MintakaRetrieval": 512,
+    "JaGovFaqsRetrieval": 512,
+    "JaqketRetrieval": 8192,
+    "JaCWIRRetrieval": 512,
+    "MultiLongDocRetrieval": 8192,
+    "MIRACLRetrieval": 512,
+    "MrTidyRetrieval": 512
+  },
+  "task_batch_size": {
+    "NLPJournalTitleAbsRetrieval.V2": 64,
+    "NLPJournalTitleIntroRetrieval.V2": 48,
+    "NLPJournalAbsIntroRetrieval.V2": 48,
+    "NLPJournalAbsArticleRetrieval.V2": 12,
+    "MintakaRetrieval": 64,
+    "JaGovFaqsRetrieval": 64,
+    "JaqketRetrieval": 12,
+    "JaCWIRRetrieval": 32,
+    "MultiLongDocRetrieval": 12,
+    "MIRACLRetrieval": 64,
+    "MrTidyRetrieval": 64
+  },
+  "target_tasks": [
+    "NLPJournalTitleAbsRetrieval.V2",
+    "NLPJournalTitleIntroRetrieval.V2",
+    "NLPJournalAbsIntroRetrieval.V2",
+    "NLPJournalAbsArticleRetrieval.V2",
+    "MintakaRetrieval",
+    "JaGovFaqsRetrieval",
+    "JaqketRetrieval",
+    "JaCWIRRetrieval",
+    "MultiLongDocRetrieval",
+    "MIRACLRetrieval",
+    "MrTidyRetrieval"
+  ],
+  "output_root_dir": "./results"
+}
